@@ -14,3 +14,15 @@ body{
         margin: auto;
     }
 }
+
+.prev {
+    display: none;
+}
+.prim{
+    margin: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: $primary-color;
+    color: black;
+    
+}

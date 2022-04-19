@@ -14,4 +14,16 @@ body {
   width: fit-content;
   margin: auto;
 }
+
+.prev {
+  display: none;
+}
+
+.prim {
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #654de4;
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+diff --git a/node_modules/react-step-progress/dist/index.css b/node_modules/react-step-progress/dist/index.css
+index fffc7f8..02ddac0 100644
+--- a/node_modules/react-step-progress/dist/index.css
++++ b/node_modules/react-step-progress/dist/index.css
+@@ -74,7 +74,7 @@
+   background-color: #42997f;
+ }
+ ._2Jtxm._35Ago ._2kL0S {
+-  background-color: #387cf6;
++  background-color: #654de4;
+   color: white;
+   -webkit-animation: _JAh3L 400ms ease forwards;
+           animation: _JAh3L 400ms ease forwards;
+@@ -116,8 +116,8 @@
+   box-shadow: 0px 3px 6px 0 rgba(190, 201, 228, 0.3);
+ }
+ ._hsN1w {
+-  background-color: #397cf6;
+-  border: 1px solid #397cf6;
++  background-color: #654de4;
++  border: 1px solid #654de4;
+   color: white;
+ }
+ ._hsN1w:hover {

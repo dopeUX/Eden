@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SetupCompletePage(){
+export default function AccountTypePage(){
     return <div>
         Welcome
     </div>
