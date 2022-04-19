@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  width: 100%;
+  margin-top: 7rem;
+}
+
+.hero .hero-logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */
