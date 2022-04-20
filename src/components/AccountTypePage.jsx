@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function AccountTypePage(){
-    return <div>
-        Welcome
+    return <div className="account-type-section">
+        
     </div>
 }
