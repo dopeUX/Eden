@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 $primary-color : #654de4;
+$font-family: 'Inter', sans-serif;
+
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: $font-family;
 }
 .hero{
     width: 100%;
@@ -13,16 +15,61 @@ body{
         width: fit-content;
         margin: auto;
     }
+
+    .hero-fragments{
+        width: 100%;
+        //text-align: center;
+    }
 }
 
 .prev {
     display: none;
 }
 .prim{
+    width: 20rem;
     margin: auto;
+    margin-top: 1rem;
+    text-align: center;
     font-size: 1rem;
     font-weight: bold;
-    background-color: $primary-color;
-    color: black;
-    
 }
+
+.welcome-page{
+    width: fit-content;
+    margin: auto;
+    
+    .welcome-page-base{
+      color: grey; 
+      margin: auto;
+      width: fit-content;
+      margin-bottom: 2rem;
+    }
+ 
+}
+
+.hero-label{
+    color: rgb(56, 56, 56); 
+    font-size: 1rem; 
+}
+
+.hero-input{
+    width: 100%;
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: .3rem;
+    font-family: $font-family;
+    border: 2px solid rgb(201, 201, 201);
+
+    &::placeholder{
+        font-weight: 500;
+    }
+}
+
+.workspace-section{
+    width: fit-content;
+    margin: auto;
+    
+
+}
+
+
