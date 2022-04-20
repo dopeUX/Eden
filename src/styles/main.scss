@@ -103,7 +103,7 @@ body{
             background-color: rgb(234, 234, 234);
          h3{
              margin: 0; 
-             width: 30%;
+             width: 40%;
              padding: 1rem 2rem;
              font-size: .9rem;
              color: rgb(139, 139, 139);
@@ -114,7 +114,7 @@ body{
             border-radius: 0;
             border-top-right-radius: .3rem;
             border-bottom-right-radius: .3rem;
-            width: 70%;
+          //  width: 70%;
 
 
          }
@@ -128,10 +128,42 @@ body{
 .account-type-section{
     width: fit-content;
     margin: auto;
-
-    .account-type-select{
-        display: flex;
+    h1{
+        margin:1.5rem auto;
+        text-align: center;
+        padding: 0;
     }
+    img{
+     width: 30px;
+     height: 30px;       
+    }
+    .account-type-select{
+       display: flex;
+       width: fit-content;
+     
+      
+       .account-type-select-card{
+           margin: 1rem 1.5rem;
+           border-radius: .4rem;
+           padding: 1.5rem 1.2rem;
+           cursor: pointer;
+           
+         h4{
+             width: 150px;
+             color: grey;
+             font-size: .9rem;
+         }
+       }
+      
+    }
+}
+
+.active{
+  border: 2px solid $primary-color;  
+}
+
+.inactive{
+  border: 1px solid rgb(216, 216, 216); 
 }
 
 

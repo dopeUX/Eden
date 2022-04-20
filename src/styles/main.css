@@ -136,7 +136,7 @@ body {
 
 .workspace-section .workspace-url-sec .workspace-url-sec-url h3 {
   margin: 0;
-  width: 30%;
+  width: 40%;
   padding: 1rem 2rem;
   font-size: .9rem;
   color: #8b8b8b;
@@ -146,7 +146,6 @@ body {
   border-radius: 0;
   border-top-right-radius: .3rem;
   border-bottom-right-radius: .3rem;
-  width: 70%;
 }
 
 .account-type-section {
@@ -156,9 +155,44 @@ body {
   margin: auto;
 }
 
+.account-type-section h1 {
+  margin: 1.5rem auto;
+  text-align: center;
+  padding: 0;
+}
+
+.account-type-section img {
+  width: 30px;
+  height: 30px;
+}
+
 .account-type-section .account-type-select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.account-type-section .account-type-select .account-type-select-card {
+  margin: 1rem 1.5rem;
+  border-radius: .4rem;
+  padding: 1.5rem 1.2rem;
+  cursor: pointer;
+}
+
+.account-type-section .account-type-select .account-type-select-card h4 {
+  width: 150px;
+  color: grey;
+  font-size: .9rem;
+}
+
+.active {
+  border: 2px solid #654de4;
+}
+
+.inactive {
+  border: 1px solid #d8d8d8;
 }
 /*# sourceMappingURL=main.css.map */
