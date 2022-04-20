@@ -64,18 +64,22 @@ body {
 
 .hero-input::-webkit-input-placeholder {
   font-weight: 500;
+  color: #bebebe;
 }
 
 .hero-input:-ms-input-placeholder {
   font-weight: 500;
+  color: #bebebe;
 }
 
 .hero-input::-ms-input-placeholder {
   font-weight: 500;
+  color: #bebebe;
 }
 
 .hero-input::placeholder {
   font-weight: 500;
+  color: #bebebe;
 }
 
 .workspace-section {
@@ -83,5 +87,56 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
+}
+
+.workspace-section .workspace-base {
+  color: grey;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+.workspace-section h3 span {
+  color: #a8a8a8;
+}
+
+.workspace-section .workspace-url-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+.workspace-section .workspace-url-sec .workspace-url-sec-url {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: .5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eaeaea;
+}
+
+.workspace-section .workspace-url-sec .workspace-url-sec-url h3 {
+  margin: 0;
+  width: 30%;
+  padding: 1rem 2rem;
+  font-size: .9rem;
+  color: #8b8b8b;
+}
+
+.workspace-section .workspace-url-sec .workspace-url-sec-url input {
+  border-radius: 0;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  width: 70%;
 }
 /*# sourceMappingURL=main.css.map */
