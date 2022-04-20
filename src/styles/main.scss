@@ -118,11 +118,9 @@ body{
 
 
          }
-        }
-       
+        }      
        
     }
-
 }
 
 .account-type-section{
@@ -158,6 +156,19 @@ body{
     }
 }
 
+.setup-complete-section{
+    width: fit-content;
+    margin:auto;
+    text-align: center;
+    img{
+        width: 130px;
+        height: 130px;
+    }
+
+    h4{
+        color: grey;
+    }
+}
 .active{
   border: 2px solid $primary-color;  
 }

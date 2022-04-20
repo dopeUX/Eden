@@ -41,6 +41,7 @@ export default function Fragments(){
     secondaryBtnClass = 'prev'
     primaryBtnClass='prim'
     nextBtnName="Create Workspace"
+    submitBtnName="Launch Eden"
     steps={[
       {
         content: component[0]
