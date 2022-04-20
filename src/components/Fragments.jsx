@@ -32,7 +32,7 @@ export default function Fragments(){
     }
       
     const onFormSubmit = () => {
-        
+        alert('Workspace created!');
     }
     
     return <div><StepProgressBar

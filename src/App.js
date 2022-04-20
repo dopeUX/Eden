@@ -7,7 +7,10 @@ function App() {
   return (
     <div className="App">
       <div className='hero'>
-         <h1 className='hero-logo'>Eden</h1>
+        <div className='logo'>
+          <img src='/icons/leaf.png'/>
+          <h1 className='hero-logo'>Eden</h1>
+        </div> 
          <div className='hero-fragments'>
            <Fragments/>
          </div>
