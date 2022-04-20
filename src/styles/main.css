@@ -32,6 +32,15 @@ body {
   font-weight: bold;
 }
 
+.hero-fragment-label {
+  color: grey;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
 .welcome-page {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -138,5 +147,18 @@ body {
   border-top-right-radius: .3rem;
   border-bottom-right-radius: .3rem;
   width: 70%;
+}
+
+.account-type-section {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.account-type-section .account-type-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
